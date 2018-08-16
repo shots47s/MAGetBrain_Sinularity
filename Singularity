@@ -37,7 +37,7 @@ This container provides MAGeTbrain
   git clone --recursive https://github.com/Mouse-Imaging-Centre/minc-stuffs.git /minc-stuffs && \
   cd /minc-stuffs                                                                            && \
   ./autogen.sh                                                                                 && \
-  ./configure --prefix=/opt CPPFLAGS="-I/usr/include/hdf5/serial -I/opt/minc/1.9.16/include" LDFLAGS="-L/opt/minc/1.9.16/lib -L/usr/lib/hdf5/serial" &&\
+  ./configure --prefix=/opt CPPFLAGS="-I/usr/include/hdf5/serial -I/opt/minc/1.0.09/include" LDFLAGS="-L/opt/minc/1.0.09/lib -L/usr/lib/hdf5/serial" &&\
   make                                                                                       && \
   make install                                                                               && \
   python setup.py install
