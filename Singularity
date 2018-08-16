@@ -32,7 +32,7 @@ This container provides MAGeTbrain
   python get-pip.py 
   pip install pyminc scipy
   pip install qbatch 
-  pip install builtins
+  pip install future
 
   git clone --recursive https://github.com/Mouse-Imaging-Centre/minc-stuffs.git /minc-stuffs && \
   cd /minc-stuffs                                                                            && \
